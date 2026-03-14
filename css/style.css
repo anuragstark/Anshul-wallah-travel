@@ -367,6 +367,96 @@ section.home {
 /* destination section ends here  */
 
 
+/* packages section starts here */
+.packages {
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: var(--dark-green);
+    color: var(--white-color);
+}
+
+.packages .label {
+    color: #00cee4;
+}
+
+.packages .heading {
+    color: var(--white-color);
+    margin-bottom: 1rem;
+}
+
+.packages .paragraph {
+    color: #eee;
+    margin-bottom: 3rem;
+}
+
+.packages .itinerary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.packages .itinerary-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.packages .itinerary-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--green-color);
+}
+
+.packages .itinerary-card .day-badge {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    background: var(--green-color);
+    color: var(--white-color);
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.packages .itinerary-card h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    color: #00cee4;
+}
+
+.packages .itinerary-card p {
+    font-size: 0.95rem;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.packages .book-btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: var(--green-color);
+    color: var(--white-color);
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.packages .book-btn:hover {
+    background: #02636e;
+    transform: translateY(-2px);
+}
+/* packages section ends here */
+
+
 /* featured section starts here  */
 
 .featured {
