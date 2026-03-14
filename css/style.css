@@ -271,6 +271,86 @@ section.home {
 
 /* travel section ends here  */
 
+/* about detailed section starts here */
+.about-us-detailed {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #0d1e26;
+}
+
+.about-us-detailed .container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.about-us-detailed .image-side {
+    flex: 1;
+    position: relative;
+}
+
+.about-us-detailed .image-side img {
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.about-us-detailed .content-side {
+    flex: 1;
+}
+
+.about-us-detailed .content-side .label {
+    color: #00cee4;
+}
+
+.about-us-detailed .content-side .heading {
+    color: var(--white-color);
+    margin-bottom: 0.5rem;
+}
+
+.about-us-detailed .content-side .subheading {
+    color: var(--green-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.about-us-detailed .content-side p {
+    color: #ccc;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+}
+
+.about-us-detailed .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.about-us-detailed .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.8rem 1.2rem;
+    border-radius: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.about-us-detailed .feature-item i {
+    color: #00cee4;
+    font-size: 1.2rem;
+}
+
+.about-us-detailed .feature-item span {
+    color: var(--white-color);
+    font-weight: 500;
+}
+/* about detailed section ends here */
+
 /* destination section starts here  */
 .destinations {
     width: 100%;
@@ -867,6 +947,11 @@ footer .footer .copyright a {
     }
 
     .home .home-box nav .menu ul {
+        gap: 2rem;
+    }
+
+    .about-us-detailed .container {
+        flex-direction: column;
         gap: 2rem;
     }
 
